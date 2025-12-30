@@ -55,5 +55,5 @@ claude --mcp-config=./.claude/.mcp.json
 ### 機能開発開始
 
 ```bash
-
+/add-feature プロダクト要求定義書におけるコア機能(MVP)を開発してください。
 ```
