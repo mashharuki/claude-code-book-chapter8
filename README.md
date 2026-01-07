@@ -30,3 +30,30 @@ Visual Studio Codeで「Reopen in Container」を選択すると、自動的に�
 - Claude Codeの最新版インストール
 
 ※ Dev Containerを利用する際は、事前にDockerのインストールが必要です。
+
+### 3. MCP設定ファイルを指定して起動
+
+```bash
+claude --mcp-config=./.claude/.mcp.json
+```
+
+## Spec駆動開発の流れ
+
+### まずプロジェクトのセットアップ
+
+
+```bash
+/setup-project
+```
+
+### ドキュメントのレビュー
+
+```bash
+/review-docs docs/product-requirements.md
+```
+
+### 機能開発開始
+
+```bash
+/add-feature プロダクト要求定義書におけるコア機能(MVP)を開発してください。
+```
